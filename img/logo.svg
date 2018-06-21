@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="129px" height="32px" viewBox="0 0 129 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-35.2115885%" y1="-43.3692902%" x2="100%" y2="140.284929%" id="linearGradient-1">
+            <stop stop-color="#95DC0C" offset="0%"></stop>
+            <stop stop-color="#D9E856" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="main_2nd" transform="translate(-169.000000, -44.000000)">
+            <g id="top">
+                <g id="logo" transform="translate(170.000000, 45.000000)">
+                    <text id="PUBLYTO" font-family="Lato-Bold, Lato" font-size="20" font-weight="bold" fill="#363636">
+                        <tspan x="40" y="23">PUBLYTO</tspan>
+                    </text>
+                    <g id="icon" stroke="url(#linearGradient-1)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <path d="M19.6551724,10.3447598 L30,10.3447598 L30,30 L10.3448276,30 L10.3448276,19.6542057 L1.77635684e-15,19.6542057 L1.77635684e-15,1.77635684e-15 L19.6551724,1.77635684e-15 L19.6551724,10.3447598 Z" id="Combined-Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

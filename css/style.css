@@ -1,0 +1,1490 @@
+.wrapper {
+    width: 100%;
+}
+
+.selectBox {
+    width: 200px;
+    padding: 20px;
+    border: 1px solid #DCDCDC;
+    -webkit-appearance: none;
+    background-image: url("../img/downArrow.svg");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: #DCDCDC;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.dividerShort {
+    width: 40px;
+    height: 1px;
+    background-color: #DCDCDC;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.space {
+    width: 100%;
+    height: 60px;
+}
+
+.divider_no_top {
+    width: 100%;
+    height: 1px;
+    background-color: #DCDCDC;
+    margin-top: 0px;
+    margin-bottom: 60px;
+}
+
+.divider_no_bottom {
+    width: 100%;
+    height: 1px;
+    background-color: #DCDCDC;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+#bm {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.headSection {
+    width: 100%;
+    z-index: 100;
+    /*background-color: #3735C1;*/
+    background-image: url(../img/head_bg.svg);
+    background-repeat: repeat-x;
+    background-size: auto 750px;
+}
+
+.headNavigation {
+    max-width: 1040px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+}
+
+.logo img {
+    height: 30px;
+}
+
+.headMenus {
+    width: 70%;
+    float: right;
+}
+
+.headMenus ul {
+    float: hidden;
+}
+
+.headMenus li {
+    float: right;
+    padding-left: 40px;
+    font-size: 14px;
+}
+
+.headMenus li a {
+    color: #000;
+    text-decoration: none;
+    -webkit-transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+    transition: opacity .5s ease-out;
+}
+
+.headMenus li a:hover {
+    opacity: .5;
+}
+
+.headMenus li:last-child {
+    padding-right: 0px;
+}
+
+.headContentBox {
+    width: 100%;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+
+.headContentBoxLeft {
+    width: 100%;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.headContentBoxLeft h1 {
+    font-size: 60px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.headContentBoxLeft p {
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.headContentBoxLeftLinkButton {
+    padding-bottom: 35px;
+}
+
+.headContentBoxRight {
+    width: 100%;
+    text-align: center;
+}
+
+.firstSectionBox {
+    width: 100%;
+    padding-top: 60px;
+    margin: 0 auto;
+}
+
+.firstSectionBoxHead {
+    width: 100%;
+    max-width: 660px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.firstSectionBoxHead h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.firstSectionBoxHead h2 {
+    font-size: 20px;
+    font-weight: 300;
+    color: #9AC40B;
+    padding-top: 15px;
+}
+
+.firstSectionBoxHead p {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    padding-top: 35px;
+    padding-bottom: 45px;
+}
+
+.firstSectionBox img {
+    width: 50%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.secondSectionBox {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.secondSectionBoxKeyVisual {
+    width: 100%;
+    max-width: 1920px;
+    height: 286px;
+    background-image: url(../img/key_visual_web.jpg);
+    background-size: auto 286px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0 auto;
+}
+
+.secondSectionBoxHead {
+    width: 100%;
+    text-align: center;
+}
+
+.secondSectionBoxHead h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.secondSectionBoxHead h2 {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 300;
+    color: #9AC40B;
+    padding-top: 15px;
+    padding-bottom: 35px;
+}
+
+.secondSectionBoxHead p {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    padding-top: 35px;
+    padding-bottom: 45px;
+}
+
+.secondSectionContentBox {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.secondSectionContentBox p {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    padding-top: 35px;
+    padding-bottom: 45px;
+}
+
+.secondSectionContentBox ul {
+}
+
+.secondSectionContentBox li {
+    padding-bottom: 70px;
+    overflow: hidden;
+}
+
+.secondSectionContentBox li.withIcon {
+    padding-bottom: 0px;
+    overflow: hidden;
+}
+
+.secondSectionContentBox li:last-child {
+    padding-bottom: 0px;
+}
+
+.secondSectionContentBoxLeft {
+    width: 50%;
+    box-sizing: border-box;
+    vertical-align: middle;
+    text-align: center;
+    float: left;
+    padding-right: 50px;
+}
+
+.secondSectionContentBoxLeft h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.secondSectionContentBoxLeft img {
+    width: 100%;
+    max-width: 150px;
+}
+
+.secondSectionContentBoxLeft h2 {
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.secondSectionContentBoxLeft h3 {
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.secondSectionContentBoxLeft p {
+    font-size: 12px;
+    padding-top: 20px;
+    text-align: left;
+}
+
+.secondSectionContentBoxRight {
+    width: 50%;
+    box-sizing: border-box;
+    vertical-align: middle;
+    float: left;
+    text-align: center;
+}
+
+.secondSectionContentBoxRight img {
+    width: 100%;
+    max-width: 150px;
+}
+
+.secondSectionContentBoxRight h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.secondSectionContentBoxRight h2 {
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.secondSectionContentBoxRight h3 {
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.secondSectionContentBoxRight p {
+    font-size: 12px;
+    padding-top: 20px;
+    text-align: left;
+}
+
+.thirdSectionBox {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.thirdSectionBoxPlanMap {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding-top: 60px;
+}
+
+.thirdSectionBoxHead {
+    width: 100%;
+    text-align: center;
+}
+
+.thirdSectionBoxHead h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.thirdSectionBoxHead h2 {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 300;
+    color: #9AC40B;
+    padding-top: 15px;
+}
+
+.thirdSectionBoxHead p {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    padding-top: 35px;
+    padding-bottom: 45px;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.thirdSectionContentBoxNormal {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.thirdSectionContentBoxNormal ul {
+    overflow: hidden;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.thirdSectionContentBoxNormal li {
+    width: 33.3%;
+    float: left;
+    padding-right: 60px;
+    box-sizing: border-box;
+}
+
+.thirdSectionContentBoxNormal li:last-child {
+    padding-right: 0px;
+}
+
+.thirdSectionContentBoxNormal li h1 {
+    font-size: 18px;
+    line-height: 32px;
+    padding-bottom: 15px;
+}
+
+.thirdSectionContentBoxNormal li p {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.thirdSectionContentBox {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.thirdSectionContentBoxTokenDist {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.thirdSectionContentBoxTokenDist > div {
+    margin: 0 auto;
+}
+
+.thirdSectionContentBoxTokenDist h1 {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.thirdSectionContentBoxTokenDist {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.thirdSectionContentBoxTokenDist img.Desktop{
+    height: 450px;
+    margin: 0 auto;
+}
+
+.thirdSectionContentBoxTokenDist img.Mobile {
+    display: none;
+
+}
+.thirdSectionContentBoxTokenDist p {
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.thirdSectionContentBoxPlanMap {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.thirdSectionContentBoxPlanMap img.Desktop{
+    width: 100%;
+    max-width: 1000px;
+    display: block;
+    padding-bottom: 60px;
+}
+
+.thirdSectionContentBoxPlanMap img.Mobile{
+    display: none;
+}
+
+.thirdSectionContentBoxWhitePaper {
+    width: 100%;
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+.thirdSectionContentBoxWhitePaper img {
+    width: 100%;
+    max-width: 150px;
+}
+
+.thirdSectionContentBox ul {
+}
+
+.thirdSectionContentBox li {
+    width: 100%;
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.thirdSectionContentBox li:last-child {
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.thirdSectionContentBoxLeft1 {
+    width: 50%;
+    float: left;
+}
+
+.thirdSectionContentBoxLeft1 img {
+    width: 90%;
+    float: right;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.thirdSectionContentBoxRight1 {
+    width: 50%;
+    float: right;
+    padding: 35px;
+    box-sizing: border-box;
+}
+
+.thirdSectionContentBoxRight1 h1 {
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: bold;
+}
+
+.thirdSectionContentBoxRight1 h2 {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #9AC40B;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.thirdSectionContentBoxRight1 p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+.thirdSectionContentBoxRight2 {
+    width: 50%;
+    float: right;
+}
+
+.thirdSectionContentBoxRight2 img {
+    width: 90%;
+    box-sizing: border-box;
+    padding: 30px;
+    /*float: right;*/
+}
+
+.thirdSectionContentBoxLeft2 {
+    width: 50%;
+    float: left;
+    padding: 35px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.thirdSectionContentBoxLeft2 h1 {
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: bold;
+}
+
+.thirdSectionContentBoxLeft2 h2 {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #9AC40B;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.thirdSectionContentBoxLeft2 p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+.fourthSectionBox {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.fourthSectionBoxHead {
+    width: 100%;
+    text-align: center;
+}
+
+.fourthSectionBoxHead h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.fourthSectionBoxHead p {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    padding-top: 35px;
+    padding-bottom: 45px;
+}
+
+.fourthSectionContentBox {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.fourthSectionContentBox img {
+    padding-bottom: 45px;
+}
+
+.fourthSectionContentBoxText {
+    font-size: 14px;
+    line-height: 32px;
+    max-width: 520px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.fourthSectionContentBoxText img {
+    height: 25px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.linkButton {
+    width: 220px;
+    background-color: transparent;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    color: #9AC40B;
+    margin: 0 auto;
+    border: 1px solid #9AC40B;
+    border-radius: 5px;
+    -webkit-transition: background-color .5s ease-out;
+    -moz-transition: background-color .5s ease-out;
+    -o-transition: background-color .5s ease-out;
+    transition: background-color .5s ease-out;
+}
+
+.linkButton:hover {
+    background-color: #9AC40B;
+    color: #fff;
+}
+
+.videoBox {
+    width: 100%;
+    height: 500px;
+}
+
+.videoBoxInner {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.videoBoxText {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    width: 100%;
+    padding-top: 200px;
+}
+
+.videoBoxText h1 {
+    font-size: 40px;
+    line-height: 59px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.videoBoxText p {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+}
+
+video {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.footerBox {
+    width: 100%;
+    max-width: 1040px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+}
+
+.footerBoxLeft {
+    width: 50%;
+    font-size: 14px;
+    float: left;
+}
+
+.footerBoxRight {
+    width: 50%;
+    float: right;
+}
+
+.footerBoxRight img{
+    height: 50px;
+}
+
+.footerBoxRight ul {
+    overflow: hidden;
+}
+
+.footerBoxRight li {
+    float: right;
+    padding-left: 20px;
+}
+
+.footerBoxRight li:last-child {
+    padding-right: 0px;
+}
+
+/*Tablet*/
+@media only screen and (max-width: 1040px) {
+    .headSection {
+        width: 100%;
+        /*background-color: #3735C1;*/
+        background: linear-gradient(to bottom right, #1d21ae, #5d35c1);
+    }
+
+    .headNavigation {
+        max-width: 1040px;
+        overflow: hidden;
+        margin: 0 auto;
+        padding-top: 40px;
+    }
+
+    .logo {
+        width: 30%;
+        float: left;
+    }
+
+    .headMenus {
+        width: 70%;
+        float: right;
+    }
+
+    .headMenus ul {
+        overflow: hidden;
+    }
+
+    .headMenus li {
+        float: right;
+        padding-left: 40px;
+        font-size: 14px;
+    }
+
+    .headMenus li a {
+        color: #fff;
+        text-decoration: none;
+        -webkit-transition: opacity .5s ease-out;
+        -moz-transition: opacity .5s ease-out;
+        -o-transition: opacity .5s ease-out;
+        transition: opacity .5s ease-out;
+    }
+
+    .headMenus li a:hover {
+        opacity: .5;
+    }
+
+    .headMenus li:last-child {
+        padding-right: 0px;
+    }
+
+    .headContentBox {
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto;
+        overflow: hidden;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        display: block;
+    }
+
+    .headContentBoxLeft {
+        width: 50%;
+        float: left;
+        display: block;
+        padding-top: 100px;
+    }
+
+    .headContentBoxLeft h1 {
+        font-size: 60px;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .headContentBoxLeft p {
+        font-size: 15px;
+        line-height: 24px;
+        color: #fff;
+        padding-top: 25px;
+    }
+
+    .headContentBoxRight {
+        width: 50%;
+        float: left;
+        display: table-cell;
+        text-align: center;
+    }
+}
+
+/*Mobile*/
+@media only screen and (max-width: 1039px) {
+    /* For mobile phones: */
+    .headSection {
+        width: 100%;
+        /*background-color: #3735C1;*/
+        background-image: url(../img/head_bg_mobile.svg);
+        background-repeat: repeat-x;
+        background-size: auto 550px;
+        background-position: top;
+    }
+
+    .headNavigation {
+        max-width: 1040px;
+        overflow: hidden;
+        margin: 0 auto;
+        padding-top: 40px;
+    }
+
+    .selectBox {
+        width: 300px;
+        font-size: 14px;
+        padding: 20px;
+        border: 1px solid #DCDCDC;
+        -webkit-appearance: none;
+        background-image: url("../img/downArrow.svg");
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: auto;
+    }
+
+    .logo {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+
+    .logo img {
+        width: 50%;
+    }
+
+    .headMenus {
+        width: 70%;
+        float: right;
+        display: none;
+    }
+
+    .headMenus ul {
+        overflow: hidden;
+    }
+
+    .headMenus li {
+        float: right;
+        padding-left: 40px;
+        font-size: 14px;
+    }
+
+    .headMenus li a {
+        color: #fff;
+        text-decoration: none;
+        -webkit-transition: opacity .5s ease-out;
+        -moz-transition: opacity .5s ease-out;
+        -o-transition: opacity .5s ease-out;
+        transition: opacity .5s ease-out;
+    }
+
+    .headMenus li a:hover {
+        opacity: .5;
+    }
+
+    .headMenus li:last-child {
+        padding-right: 0px;
+    }
+
+    .headContentBox {
+        width: 100%;
+        max-width: 360px;
+        padding-top: 60px;
+        padding-bottom: 0px;
+        display: block;
+    }
+
+    .headContentBoxLeft {
+        width: 100%;
+        float: none;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    .headContentBoxLeft h1 {
+        font-size: 40px;
+        color: #000;
+        font-weight: bold;
+    }
+
+    .headContentBoxLeft p {
+        font-size: 14px;
+        line-height: 24px;
+        color: #000;
+        padding-top: 25px;
+    }
+
+    .headContentBoxRight {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .headContentBoxRight img {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+
+    .firstSectionBox {
+        width: 100%;
+        padding-top: 60px;
+        margin: 0 auto;
+    }
+
+    .firstSectionBox img {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .firstSectionBoxHead {
+        width: 100%;
+        max-width: 560px;
+        text-align: center;
+        margin: 0 auto;
+        padding-left: 30px;
+        padding-right: 30px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .firstSectionBoxHead h1 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .firstSectionBoxHead h2 {
+        font-size: 15px;
+        font-weight: 300;
+        color: #9AC40B;
+        padding-top: 15px;
+    }
+
+    .firstSectionBoxHead p {
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 300;
+        padding-top: 35px;
+        padding-bottom: 45px;
+    }
+
+    .firstSectionBoxHeadImage {
+        display: none;
+    }
+
+    .firstSectionBoxHeadImageMobile {
+        width: 100%;
+        height: 600px;
+        background-position: center center;
+        background-image: url(../img/first_img_m.png);
+        display: block;
+    }
+
+    .secondSectionBox {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .secondSectionBoxHead {
+        width: 100%;
+        text-align: center;
+    }
+
+    .secondSectionBoxHead h1 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .secondSectionBoxHead h2 {
+        font-size: 15px;
+        line-height: 26px;
+        font-weight: 300;
+        color: #9AC40B;
+        padding-top: 15px;
+        padding-bottom: 35px;
+    }
+
+    .secondSectionBoxHead p {
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 300;
+        padding-top: 35px;
+        padding-bottom: 45px;
+    }
+
+    .secondSectionContentBox {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .secondSectionContentBox p {
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 300;
+        padding-top: 35px;
+        padding-bottom: 35px;
+        box-sizing: border-box;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .secondSectionContentBox ul {
+    }
+
+    .secondSectionContentBox li {
+        display: block;
+        padding-bottom: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .secondSectionContentBox li:last-child {
+        padding-bottom: 0px;
+    }
+
+    .secondSectionContentBoxLeft {
+        width: 100%;
+        box-sizing: border-box;
+        vertical-align: middle;
+        display: block;
+        padding-right: 0px;
+        padding-bottom: 50px;
+    }
+
+    .secondSectionContentBoxLeft img {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .secondSectionContentBoxLeft h1 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .secondSectionContentBoxRight {
+        width: 100%;
+        padding-left: 0px;
+        padding-bottom: 50px;
+        box-sizing: border-box;
+        display: block;
+    }
+
+    .secondSectionContentBoxRight:last-child {
+        padding-bottom: 0px;
+    }
+
+    .secondSectionContentBoxRight img {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .secondSectionContentBoxRight h1 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .secondSectionContentBoxRight h1 img {
+        width: 100%;
+        max-width: 100px;
+    }
+
+    .secondSectionContentBoxRight h2 {
+        font-size: 14px;
+        font-weight: 300;
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+
+    .secondSectionContentBoxRight p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .thirdSectionBox {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .thirdSectionBoxHead {
+        width: 100%;
+        text-align: center;
+    }
+
+    .thirdSectionBoxHead h1 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .thirdSectionBoxHead h2 {
+        font-size: 15px;
+        line-height: 26px;
+        font-weight: 300;
+        color: #9AC40B;
+        padding-top: 15px;
+    }
+
+    .thirdSectionBoxHead p {
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 300;
+        padding-top: 35px;
+        padding-bottom: 35px;
+        padding-left: 30px;
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
+
+    .thirdSectionContentBoxNormal {
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .thirdSectionContentBoxNormal ul {
+        overflow: hidden;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .thirdSectionContentBoxNormal li {
+        width: 100%;
+        float: left;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-bottom: 50px;
+        box-sizing: border-box;
+    }
+
+    .thirdSectionContentBoxNormal li:last-child {
+        padding-right: 30px;
+        padding-bottom: 0px;
+    }
+
+    .thirdSectionContentBoxNormal li h1 {
+        font-size: 18px;
+        line-height: 32px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    .thirdSectionContentBoxNormal li p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .thirdSectionContentBox {
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .thirdSectionContentBoxTokenDist {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: hidden;
+    }
+
+    .thirdSectionContentBoxTokenDist img.Desktop{
+        display:none;
+    }
+
+    .thirdSectionContentBoxTokenDist img.Mobile {
+        display: block;
+        height: 800px;
+        margin: 0 auto;
+    }
+
+    .thirdSectionContentBoxTokenDist > div {
+        margin: 0 auto;
+    }
+
+    .thirdSectionContentBoxTokenDist h1 {
+        font-size: 18px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .thirdSectionContentBoxTokenDist p {
+        font-size: 12px;
+        line-height: 24px;
+        padding-left:30px;
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
+
+    .thirdSectionContentBoxPlanMap {
+        width: 100%;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .thirdSectionContentBoxPlanMap img.Desktop{
+        display:none;
+    }
+
+    .thirdSectionContentBoxPlanMap img.Mobile{
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 60px;
+        box-sizing: border-box;
+        display: block;
+    }
+
+    .thirdSectionContentBoxWhitePaper {
+        width: 100%;
+        max-width: 150px;
+        margin: 0 auto;
+    }
+
+    .thirdSectionContentBoxWhitePaper img {
+        width: 100%;
+        max-width: 150px;
+    }
+
+    .thirdSectionContentBox ul {
+    }
+
+    .thirdSectionContentBox li {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .thirdSectionContentBox li:last-child {
+        border-bottom: 1px solid #DCDCDC;
+    }
+
+    .thirdSectionContentBoxLeft1 {
+        width: 100%;
+        float: none;
+        background-size: cover;
+        background-position: center center;
+        height: auto;
+    }
+
+    .thirdSectionContentBoxLeft1 img {
+        width: 100%;
+        float: left;
+        box-sizing: border-box;
+        padding: 0px;
+    }
+
+    .thirdSectionContentBoxRight1 {
+        width: 100%;
+        float: none;
+        padding: 10px;
+        box-sizing: border-box;
+        border-top: none;
+    }
+
+    .thirdSectionContentBoxRight1 h1 {
+        font-size: 22px;
+        line-height: 33px;
+        font-weight: bold;
+    }
+
+    .thirdSectionContentBoxRight1 h2 {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 300;
+        color: #9AC40B;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .thirdSectionContentBoxRight1 p {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 300;
+    }
+
+    .thirdSectionContentBoxRight2 {
+        width: 100%;
+        float: none;
+        background-size: cover;
+        background-position: center center;
+        height: auto;
+    }
+
+    .thirdSectionContentBoxRight2 img {
+        width: 100%;
+        float: left;
+        box-sizing: border-box;
+        padding: 0px;
+    }
+
+
+    .thirdSectionContentBoxLeft2 {
+        width: 100%;
+        float: none;
+        padding: 10px;
+        box-sizing: border-box;
+        border-top: none;
+        text-align: left;
+    }
+
+    .thirdSectionContentBoxLeft2 h1 {
+        font-size: 22px;
+        line-height: 33px;
+        font-weight: bold;
+    }
+
+    .thirdSectionContentBoxLeft2 h2 {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 300;
+        color: #9AC40B;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .thirdSectionContentBoxLeft2 p {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 300;
+    }
+
+    .fourthSectionBox {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 60px;
+    }
+
+    .fourthSectionBoxHead {
+        width: 100%;
+        text-align: center;
+    }
+
+    .fourthSectionBoxHead h1 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .fourthSectionBoxHead p {
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 300;
+        padding-top: 35px;
+        padding-bottom: 45px;
+    }
+
+    .fourthSectionContentBox {
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .fourthSectionContentBox img {
+        padding-bottom: 45px;
+    }
+
+    .fourthSectionContentBoxText {
+        font-size: 14px;
+        line-height: 32px;
+        max-width: 520px;
+        margin: 0 auto;
+        text-align: left;
+        padding-left: 20px;
+        padding-right: 20px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .fourthSectionContentBoxText img {
+        height: 25px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+
+    .videoBox {
+        width: 100%;
+        height: 400px;
+    }
+
+    .videoBoxInner {
+        position: absolute;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+    }
+
+    .videoBoxText {
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: #fff;
+        width: 100%;
+        padding-top: 100px;
+        padding-left: 30px;
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
+
+    .videoBoxText h1 {
+        font-size: 25px;
+        line-height: 40px;
+        text-align: center;
+        font-weight: bold;
+        padding-bottom: 20px;
+    }
+
+    .videoBoxText p {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    video {
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+    .footerBox {
+        width: 100%;
+        max-width: 1040px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        margin: 0 auto;
+    }
+
+    .footerBoxLeft {
+        width: 100%;
+        font-size: 14px;
+        float: none;
+        text-align: center;
+    }
+
+    .footerBoxRight {
+        width: 100%px;
+        float: none;
+        margin: 0 auto;
+        padding-top: 60px;
+    }
+
+    .footerBoxRight li img {
+        width: 50px;
+    }
+
+    .footerBoxRight ul {
+        overflow: hidden;
+    }
+
+    .footerBoxRight li {
+        float: left;
+        padding-left: 0px;
+        width: 25%;
+        text-align: center;
+    }
+
+    .footerBoxRight li:first-child {
+        padding-left: 0px;
+    }
+
+}
