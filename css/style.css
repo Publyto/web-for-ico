@@ -180,6 +180,7 @@
     font-weight: 300;
     padding-top: 35px;
     padding-bottom: 45px;
+    text-align: justify;
 }
 
 .firstSectionBox img {
@@ -220,7 +221,6 @@
     font-weight: 300;
     color: #9AC40B;
     padding-top: 15px;
-    padding-bottom: 35px;
 }
 
 .secondSectionBoxHead p {
@@ -295,7 +295,7 @@
 .secondSectionContentBoxLeft p {
     font-size: 12px;
     padding-top: 20px;
-    text-align: left;
+    text-align: justify;
 }
 
 .secondSectionContentBoxRight {
@@ -329,7 +329,7 @@
 .secondSectionContentBoxRight p {
     font-size: 12px;
     padding-top: 20px;
-    text-align: left;
+    text-align: justify;
 }
 
 .thirdSectionBox {
@@ -370,6 +370,7 @@
     padding-bottom: 45px;
     max-width: 650px;
     margin: 0 auto;
+    text-align: justify;
 }
 
 .thirdSectionContentBoxNormal {
@@ -389,6 +390,7 @@
     float: left;
     padding-right: 60px;
     box-sizing: border-box;
+    text-align: center;
 }
 
 .thirdSectionContentBoxNormal li:last-child {
@@ -507,9 +509,11 @@
     float: right;
     padding: 35px;
     box-sizing: border-box;
+    text-align: justify;
 }
 
 .thirdSectionContentBoxRight1 h1 {
+    width: 110%;
     font-size: 22px;
     line-height: 33px;
     font-weight: bold;
@@ -533,6 +537,7 @@
 .thirdSectionContentBoxRight2 {
     width: 50%;
     float: right;
+    text-align: justify;
 }
 
 .thirdSectionContentBoxRight2 img {
@@ -547,7 +552,7 @@
     float: left;
     padding: 35px;
     box-sizing: border-box;
-    text-align: left;
+    text-align: justify;
 }
 
 .thirdSectionContentBoxLeft2 h1 {
@@ -1039,7 +1044,7 @@ video {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
-        text-align: center;
+        text-align: justify;
     }
 
     .secondSectionContentBox li:last-child {
