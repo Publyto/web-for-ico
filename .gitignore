@@ -13,3 +13,7 @@
 *.sln.docstates
 
 .DS_Store
+.idea/modules.xml
+.idea/vcs.xml
+.idea/web-for-ico.iml
+.idea/workspace.xml
