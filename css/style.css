@@ -18,7 +18,7 @@
     height: 1px;
     background-color: #DCDCDC;
     margin-top: 60px;
-    margin-bottom: 60px;
+    /*margin-bottom: 60px;*/
 }
 
 .dividerShort {
@@ -192,6 +192,7 @@
 .secondSectionBox {
     width: 100%;
     margin: 0 auto;
+    margin-top: 60px;
 }
 
 .secondSectionBoxKeyVisual {
@@ -335,6 +336,7 @@
 .thirdSectionBox {
     width: 100%;
     margin: 0 auto;
+    margin-top: 60px;
 }
 
 .thirdSectionBoxPlanMap {
