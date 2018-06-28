@@ -438,7 +438,7 @@
     margin: 0 auto;
 }
 
-.thirdSectionContentBoxTokenDist img.Desktop{
+.thirdSectionContentBoxTokenDist img.Desktop {
     height: 450px;
     margin: 0 auto;
 }
@@ -447,6 +447,7 @@
     display: none;
 
 }
+
 .thirdSectionContentBoxTokenDist p {
     font-size: 12px;
     line-height: 24px;
@@ -458,14 +459,14 @@
     margin: 0 auto;
 }
 
-.thirdSectionContentBoxPlanMap img.Desktop{
+.thirdSectionContentBoxPlanMap img.Desktop {
     width: 100%;
     max-width: 1000px;
     display: block;
     padding-bottom: 60px;
 }
 
-.thirdSectionContentBoxPlanMap img.Mobile{
+.thirdSectionContentBoxPlanMap img.Mobile {
     display: none;
 }
 
@@ -662,11 +663,11 @@
 
 .videoBoxText {
     position: absolute;
-    top: 0;
+    top: 50%;
     left: 0;
+    transform: translateY(-50%);
     color: #fff;
     width: 100%;
-    padding-top: 200px;
 }
 
 .videoBoxText h1 {
@@ -707,7 +708,7 @@ video {
     float: right;
 }
 
-.footerBoxRight img{
+.footerBoxRight img {
     height: 50px;
 }
 
@@ -1106,8 +1107,8 @@ video {
         overflow: hidden;
     }
 
-    .thirdSectionContentBoxTokenDist img.Desktop{
-        display:none;
+    .thirdSectionContentBoxTokenDist img.Desktop {
+        display: none;
     }
 
     .thirdSectionContentBoxTokenDist img.Mobile {
@@ -1130,7 +1131,7 @@ video {
     .thirdSectionContentBoxTokenDist p {
         font-size: 12px;
         line-height: 24px;
-        padding-left:30px;
+        padding-left: 30px;
         padding-right: 30px;
         box-sizing: border-box;
     }
@@ -1141,11 +1142,11 @@ video {
         margin: 0 auto;
     }
 
-    .thirdSectionContentBoxPlanMap img.Desktop{
-        display:none;
+    .thirdSectionContentBoxPlanMap img.Desktop {
+        display: none;
     }
 
-    .thirdSectionContentBoxPlanMap img.Mobile{
+    .thirdSectionContentBoxPlanMap img.Mobile {
         width: 100%;
         padding-left: 30px;
         padding-right: 30px;
@@ -1235,7 +1236,6 @@ video {
         box-sizing: border-box;
         padding: 0px;
     }
-
 
     .thirdSectionContentBoxLeft2 {
         width: 100%;
@@ -1380,7 +1380,7 @@ video {
     }
 
     .footerBoxRight {
-        width: 100%px;
+        width: 100% px;
         float: none;
         margin: 0 auto;
         padding-top: 60px;
