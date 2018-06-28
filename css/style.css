@@ -192,7 +192,7 @@
 .secondSectionBox {
     width: 100%;
     margin: 0 auto;
-    margin-top: 60px;
+    padding-top: 60px;
 }
 
 .secondSectionBoxKeyVisual {
@@ -336,7 +336,7 @@
 .thirdSectionBox {
     width: 100%;
     margin: 0 auto;
-    margin-top: 60px;
+    padding-top: 60px;
 }
 
 .thirdSectionBoxPlanMap {
@@ -898,6 +898,7 @@ video {
     .secondSectionBox {
         width: 100%;
         margin: 0 auto;
+        padding-top: 60px;
     }
 
     .secondSectionBoxHead {
