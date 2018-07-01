@@ -13,6 +13,29 @@
     background-size: auto;
 }
 
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #DCDCDC;
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 20px 20px 20px 20px;
+    -webkit-transition: border 0.5s ease-in-out, background-color 0.5s ease-in-out;
+    transition: border 0.5s ease-in-out, background-color 0.5s ease-in-out;
+    background-color: rgb(248, 248, 248);
+    color: #666;
+}
+
+input[type=text]:hover {
+    border: 1px solid #9AC40B;
+    background-color: #fff;
+}
+
+input[type=text]:focus {
+    background-color: #fff;
+    color: #000;
+}
+
 .divider {
     width: 100%;
     height: 1px;
@@ -28,6 +51,15 @@
     margin: 0 auto;
     margin-top: 60px;
     margin-bottom: 60px;
+}
+
+.dividerShortNoBottom{
+    width: 40px;
+    height: 1px;
+    background-color: #DCDCDC;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 0px;
 }
 
 .space {
@@ -63,6 +95,11 @@
     background-image: url(../img/head_bg.svg);
     background-repeat: repeat-x;
     background-size: auto 750px;
+}
+
+.subheadSection {
+    width: 100%;
+    z-index: 100;
 }
 
 .headNavigation {
@@ -188,6 +225,25 @@
     max-width: 300px;
     margin: 0 auto;
 }
+
+.firstSectionContentBox {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.firstSectionContentBox p {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    padding-top: 35px;
+    padding-bottom: 45px;
+}
+
+
 
 .secondSectionBox {
     width: 100%;
@@ -649,6 +705,48 @@
     color: #fff;
 }
 
+.submitButton {
+    width: 100%;
+    background-color: #9AC40B;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    color: #FFF;
+    margin: 0 auto;
+    border: 1px solid #9AC40B;
+    border-radius: 5px;
+    -webkit-transition: background-color .5s ease-out;
+    -moz-transition: background-color .5s ease-out;
+    -o-transition: background-color .5s ease-out;
+    transition: background-color .5s ease-out;
+}
+
+.submitButton:hover {
+    background-color: #7ea105;
+    color: #fff;
+}
+
+.submitButtonBordered {
+    width: 100%;
+    background-color: transparent;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    color: #9AC40B;
+    margin: 0 auto;
+    border: 1px solid #9AC40B;
+    border-radius: 5px;
+    -webkit-transition: background-color .5s ease-out;
+    -moz-transition: background-color .5s ease-out;
+    -o-transition: background-color .5s ease-out;
+    transition: background-color .5s ease-out;
+}
+
+.submitButtonBordered:hover {
+    background-color: #9AC40B;
+    color: #fff;
+}
+
 .videoBox {
     width: 100%;
     height: 500px;
@@ -733,8 +831,9 @@ video {
         /*background-color: #3735C1;*/
         background-image: url(../img/head_bg_mobile.svg);
         background-repeat: repeat-x;
-        background-size: auto 550px;
+        background-size: auto 450px;
         background-position: top;
+        overflow: auto;
     }
 
     .headNavigation {
@@ -865,7 +964,7 @@ video {
     }
 
     .firstSectionBoxHead h1 {
-        font-size: 25px;
+        font-size: 30px;
         font-weight: bold;
     }
 
@@ -883,6 +982,24 @@ video {
         padding-top: 35px;
         padding-bottom: 45px;
     }
+
+    .firstSectionContentBox {
+        width: 100%;
+        margin: 0 auto;
+        box-sizing: border-box;
+        overflow: hidden;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .secondSectionContentBox p {
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 300;
+        padding-top: 35px;
+        padding-bottom: 45px;
+    }
+
 
     .firstSectionBoxHeadImage {
         display: none;
@@ -932,6 +1049,9 @@ video {
     .secondSectionContentBox {
         width: 100%;
         max-width: 600px;
+        padding-left: 30px;
+        padding-right: 30px;
+        box-sizing: border-box;
         margin: 0 auto;
         overflow: hidden;
     }
@@ -940,11 +1060,7 @@ video {
         font-size: 14px;
         line-height: 22px;
         font-weight: 300;
-        padding-top: 35px;
-        padding-bottom: 35px;
         box-sizing: border-box;
-        padding-left: 30px;
-        padding-right: 30px;
     }
 
     .secondSectionContentBox ul {
@@ -1093,6 +1209,11 @@ video {
     .thirdSectionContentBoxNormal li p {
         font-size: 12px;
         line-height: 20px;
+    }
+
+    .thirdSectionContentBoxNormal li img {
+        width: 100%;
+        max-width: 300px;
     }
 
     .thirdSectionContentBox {
@@ -1380,7 +1501,8 @@ video {
     }
 
     .footerBoxRight {
-        width: 100% px;
+        width: 100%;
+        max-width: 300px;
         float: none;
         margin: 0 auto;
         padding-top: 60px;

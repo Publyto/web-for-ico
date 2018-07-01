@@ -1,0 +1,605 @@
+.wrapper {
+    width: 100%;
+}
+
+.selectBox {
+    width: 100%;
+    padding: 20px;
+    font-size: 15px;
+    color: #666;
+    border: 1px solid #DCDCDC;
+    -webkit-appearance: none;
+    background-image: url("../img/downArrow.svg");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto;
+    background-color: rgb(248, 248, 248);
+    -webkit-transition: border 0.5s ease-in-out, background-color 0.5s ease-in-out;
+    transition: border 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+
+.selectBox:hover {
+    border: 1px solid #9AC40B;
+    background-color: #fff;
+    color: #000;
+}
+
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #DCDCDC;
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 20px 20px 20px 20px;
+    -webkit-transition: border 0.5s ease-in-out, background-color 0.5s ease-in-out;
+    transition: border 0.5s ease-in-out, background-color 0.5s ease-in-out;
+    background-color: rgb(248, 248, 248);
+    color: #666;
+}
+
+input[type=text]:hover {
+    border: 1px solid #9AC40B;
+    background-color: #fff;
+}
+
+input[type=text]:focus {
+    background-color: #fff;
+    color: #000;
+}
+
+input[type="checkbox"] { display: none; }
+
+input[type="checkbox"] + label {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 15px;
+    line-height: 22px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+input[type="checkbox"] + label:last-child { margin-bottom: 0; }
+
+input[type="checkbox"] + label:before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #9AC40B;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: .6;
+    -webkit-transition: all .12s, border-color .08s;
+    transition: all .12s, border-color .08s;
+}
+
+input[type="checkbox"]:checked + label:before {
+    width: 10px;
+    top: -5px;
+    left: 5px;
+    border-radius: 0;
+    opacity: 1;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.drop {
+    width: 100%;
+    height: 360px;
+    border: 3px dashed #DADFE3;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    background: white;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    margin: auto;
+    box-sizing: border-box;
+    position: relative;
+    /*&:hover
+     * cursor: pointer
+     * background: #f5f5f5 */
+}
+
+.drop .cont {
+    width: 100%;
+    /*height: 170px;*/
+    color: #8E99A5;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.drop .cont i {
+    font-size: 30px;
+    color: #8E99A5;
+}
+
+.drop .cont .tit {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.drop .cont .desc {
+    color: #A4AEBB;
+}
+
+.drop .cont .browse {
+    margin: 10px 25%;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    background: #9AC40B;
+}
+
+.drop input {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background: red;
+    opacity: 0;
+    margin: auto;
+    top: 0;
+}
+
+#list {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#list .thumb {
+    height: 75px;
+    border: 1px solid #323a44;
+    margin: 10px 5px 0 0;
+}
+
+.identificationImageBox {
+    width: 70%;
+    text-align: center;
+}
+
+.submitButton {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    background: #9AC40B;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 60px;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: #DCDCDC;
+    margin-top: 60px;
+    /*margin-bottom: 60px;*/
+}
+
+.dividerShort {
+    width: 40px;
+    height: 1px;
+    background-color: #DCDCDC;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.dividerShortNoBottom {
+    width: 40px;
+    height: 1px;
+    background-color: #DCDCDC;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+.space {
+    width: 100%;
+    height: 60px;
+}
+
+.divider_no_top {
+    width: 100%;
+    height: 1px;
+    background-color: #DCDCDC;
+    margin-top: 0px;
+    margin-bottom: 60px;
+}
+
+.divider_no_bottom {
+    width: 100%;
+    height: 1px;
+    background-color: #DCDCDC;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+#bm {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.headSection {
+    width: 100%;
+    z-index: 100;
+}
+
+.headNavigation {
+    max-width: 1040px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+    text-align: left;
+}
+
+.logo img {
+    height: 32px;
+}
+
+.headMenus {
+    width: 70%;
+    float: right;
+}
+
+.headMenus ul {
+    float: hidden;
+}
+
+.headMenus li {
+    float: right;
+    padding-left: 40px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.headMenus li a {
+    color: #000;
+    text-decoration: none;
+    -webkit-transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+    transition: opacity .5s ease-out;
+}
+
+.headMenus li a:hover {
+    opacity: .5;
+}
+
+.headMenus li:last-child {
+    padding-right: 0px;
+}
+
+.required {
+    color: #9AC40B;
+    font-size: 12px;
+}
+
+.headContentBoxLeftLinkButton {
+    padding-bottom: 35px;
+}
+
+.headContentBoxRight {
+    width: 100%;
+    text-align: center;
+}
+
+.firstSectionBox {
+    width: 100%;
+    max-width: 1040px;
+    padding-top: 60px;
+    margin: 0 auto;
+}
+
+.firstSectionBoxHead {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.firstSectionBoxHead h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.firstSectionBoxHead h2 {
+    font-size: 20px;
+    font-weight: 300;
+    color: #9AC40B;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.firstSectionBoxHead p {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    padding-top: 35px;
+    padding-bottom: 45px;
+    text-align: left;
+}
+
+.firstSectionBoxContent {
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.firstSectionBoxContent ul {
+    width: 100%;
+}
+
+.firstSectionBoxContent li {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.firstSectionBoxContent li h1 {
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.firstSectionBoxContent li p {
+    font-size: 12px;
+    line-height: 20px;
+    padding-top: 15px;
+    color: #999999;
+}
+
+.firstSectionBoxContent li:last-child {
+    padding-bottom: 0px;
+}
+
+.firstSectionBoxContentFirstNameBox {
+    width: 50%;
+    float: left;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.firstSectionBoxContentLastNameBox {
+    width: 50%;
+    float: left;
+    padding-right: 0px;
+    box-sizing: border-box;
+}
+
+.checkBoxContent {
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+}
+
+.footerBox {
+    width: 100%;
+    max-width: 1040px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+}
+
+.footerBoxLeft {
+    width: 50%;
+    font-size: 14px;
+    float: left;
+}
+
+.footerBoxRight {
+    width: 50%;
+    float: right;
+}
+
+.footerBoxRight img {
+    height: 50px;
+}
+
+.footerBoxRight ul {
+    overflow: hidden;
+}
+
+.footerBoxRight li {
+    float: right;
+    padding-left: 20px;
+}
+
+.footerBoxRight li:last-child {
+    padding-right: 0px;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 1039px) {
+    /* For mobile phones: */
+    .headSection {
+        width: 100%;
+        /*background-color: #3735C1;*/
+    }
+
+    .headNavigation {
+        max-width: 1040px;
+        overflow: hidden;
+        margin: 0 auto;
+        padding-top: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
+
+    .selectBox {
+        width: 100%;
+        font-size: 14px;
+        padding: 20px;
+        border: 1px solid #DCDCDC;
+        -webkit-appearance: none;
+        background-image: url("../img/downArrow.svg");
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: auto;
+    }
+
+    .logo {
+        width: 30%;
+        float: left;
+    }
+
+    .logo img {
+        /* width: 100%;*/
+    }
+
+    .headMenus {
+        width: 70%;
+        float: right;
+    }
+
+    .headMenus ul {
+        overflow: hidden;
+    }
+
+    .headMenus li {
+        float: right;
+        padding-left: 40px;
+        font-size: 14px;
+    }
+
+    .headMenus li a {
+        color: #000;
+        text-decoration: none;
+        -webkit-transition: opacity .5s ease-out;
+        -moz-transition: opacity .5s ease-out;
+        -o-transition: opacity .5s ease-out;
+        transition: opacity .5s ease-out;
+    }
+
+    .headMenus li a:hover {
+        opacity: .5;
+    }
+
+    .headMenus li:last-child {
+        padding-right: 0px;
+    }
+
+    .identificationImageBox {
+        width: 80%;
+    }
+
+    .firstSectionBox {
+        width: 100%;
+        padding-top: 60px;
+        margin: 0 auto;
+    }
+
+    .firstSectionBoxHead {
+        width: 100%;
+        text-align: left;
+        margin: 0 auto;
+        padding-left: 30px;
+        padding-right: 30px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .firstSectionBoxHead h1 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .firstSectionBoxHead h2 {
+        font-size: 15px;
+        font-weight: 300;
+        color: #9AC40B;
+        padding-top: 15px;
+    }
+
+    .firstSectionBoxHead p {
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 300;
+        padding-top: 35px;
+        padding-bottom: 45px;
+    }
+
+    .firstSectionBoxContent {
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .checkBoxContent {
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+    }
+
+    .footerBox {
+        width: 100%;
+        max-width: 1040px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        margin: 0 auto;
+    }
+
+    .footerBoxLeft {
+        width: 100%;
+        font-size: 14px;
+        float: none;
+        text-align: center;
+    }
+
+    .footerBoxRight {
+        width: 100% px;
+        float: none;
+        margin: 0 auto;
+        padding-top: 60px;
+    }
+
+    .footerBoxRight li img {
+        width: 50px;
+    }
+
+    .footerBoxRight ul {
+        overflow: hidden;
+    }
+
+    .footerBoxRight li {
+        float: left;
+        padding-left: 0px;
+        width: 25%;
+        text-align: center;
+    }
+
+    .footerBoxRight li:first-child {
+        padding-left: 0px;
+    }
+
+}
