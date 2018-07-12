@@ -67,4 +67,6 @@ table {
 
 a {
     -webkit-tap-highlight-color: transparent;
+    color: #9AC40B;
+    text-decoration: none;
 }

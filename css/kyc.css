@@ -24,6 +24,63 @@
     color: #000;
 }
 
+.messageBox{
+    width: 100%;
+    background-color: #8E99A5;
+}
+
+.guageBarStep1{
+    background: -moz-linear-gradient(left, #9AC40B 0%, #9AC40B 25%, #9AC40B 25%, #e5e5e5 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#9AC40B), color-stop(25%,#9AC40B), color-stop(25%,#e5e5e5), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, #9AC40B 0%,#9AC40B 25%,#e5e5e5 25%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, #9AC40B 0%,#9AC40B 25%,#e5e5e5 25%,#e5e5e5 100%); /* Opera11.10+ */
+    background: -ms-linear-gradient(left, #9AC40B 0%,#9AC40B 25%,#e5e5e5 25%,#e5e5e5 100%); /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', endColorstr='#e5e5e5',GradientType=1 ); /* IE6-9 */
+    background: linear-gradient(left, #9AC40B 0%,#9AC40B 25%,#e5e5e5 25%,#e5e5e5 100%); /* W3C */
+    height: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.guageBarStep2{
+    background: -moz-linear-gradient(left, #9AC40B 0%, #9AC40B 51%, #9AC40B 51%, #e5e5e5 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#9AC40B), color-stop(51%,#9AC40B), color-stop(51%,#e5e5e5), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, #9AC40B 0%,#9AC40B 51%,#e5e5e5 51%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, #9AC40B 0%,#9AC40B 51%,#e5e5e5 51%,#e5e5e5 100%); /* Opera11.10+ */
+    background: -ms-linear-gradient(left, #9AC40B 0%,#9AC40B 51%,#e5e5e5 51%,#e5e5e5 100%); /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', endColorstr='#e5e5e5',GradientType=1 ); /* IE6-9 */
+    background: linear-gradient(left, #9AC40B 0%,#9AC40B 51%,#e5e5e5 51%,#e5e5e5 100%); /* W3C */
+    height: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.guageBarStep3{
+    background: -moz-linear-gradient(left, #9AC40B 0%, #9AC40B 75%, #9AC40B 75%, #e5e5e5 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#9AC40B), color-stop(75%,#9AC40B), color-stop(75%,#e5e5e5), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, #9AC40B 0%,#9AC40B 75%,#e5e5e5 75%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, #9AC40B 0%,#9AC40B 75%,#e5e5e5 75%,#e5e5e5 100%); /* Opera11.10+ */
+    background: -ms-linear-gradient(left, #9AC40B 0%,#9AC40B 75%,#e5e5e5 75%,#e5e5e5 100%); /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', endColorstr='#e5e5e5',GradientType=1 ); /* IE6-9 */
+    background: linear-gradient(left, #9AC40B 0%,#9AC40B 75%,#e5e5e5 75%,#e5e5e5 100%); /* W3C */
+    height: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.guageBarStep4{
+    background: -moz-linear-gradient(left, #9AC40B 0%, #9AC40B 100%, #9AC40B 100%, #e5e5e5 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(100%,#9AC40B), color-stop(100%,#9AC40B), color-stop(100%,#e5e5e5), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, #9AC40B 0%,#9AC40B 100%,#e5e5e5 100%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, #9AC40B 0%,#9AC40B 100%,#e5e5e5 100%,#e5e5e5 100%); /* Opera11.10+ */
+    background: -ms-linear-gradient(left, #9AC40B 0%,#9AC40B 100%,#e5e5e5 100%,#e5e5e5 100%); /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', endColorstr='#e5e5e5',GradientType=1 ); /* IE6-9 */
+    background: linear-gradient(left, #9AC40B 0%,#9AC40B 100%,#e5e5e5 100%,#e5e5e5 100%); /* W3C */
+    height: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
 input[type=text] {
     width: 100%;
     box-sizing: border-box;
@@ -89,6 +146,12 @@ input[type="checkbox"]:checked + label:before {
     border-left-color: transparent;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
+}
+
+input[type=radio] {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
 }
 
 .drop {
@@ -185,6 +248,53 @@ input[type="checkbox"]:checked + label:before {
     font-size: 16px;
     border-radius: 4px;
     margin-top: 60px;
+    -webkit-transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.submitButton:hover {
+    background: #7CAA18;
+}
+
+.backButton {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    border: 1px solid #8E99A5;
+    background-color: transparent;
+    color: #8E99A5;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 30px;
+    float:left;
+    overflow: hidden;
+    -webkit-transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.backButton:hover {
+    background-color: #8E99A5;
+    color: #FFFFFF;
+}
+
+.kycLoginButton {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background-color: transparent;
+    color: #8E99A5;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 20px;
+    float:left;
+    overflow: hidden;
+    -webkit-transition: color 0.5s ease-in-out;
+    transition: color 0.5s ease-in-out;
+}
+
+.kycLoginButton:hover {
+    color: #7CAA18;
 }
 
 .divider {
@@ -237,6 +347,38 @@ input[type="checkbox"]:checked + label:before {
 #bm {
     width: 60%;
     margin: 0 auto;
+}
+
+.submenuBox{
+    width:100%;
+}
+
+.submenuBox ul{
+    padding: 20px;
+    border: 1px solid #DADFE3;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.submenuBox li{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    border-right: 1px solid #DADFE3;
+    box-sizing: border-box;
+}
+
+.submenuBox li a{
+    color: #000000;
+}
+
+.submenuBox li.selected a{
+    color: #9AC40B;
+}
+
+
+.submenuBox li:last-child{
+    border-right: none;
 }
 
 .headSection {
@@ -334,6 +476,15 @@ input[type="checkbox"]:checked + label:before {
     padding-bottom: 30px;
 }
 
+.firstSectionBoxHead h3 {
+    font-size: 20px;
+    font-weight: 300;
+    color: #9AC40B;
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+
+
 .firstSectionBoxHead p {
     font-size: 14px;
     line-height: 22px;
@@ -348,6 +499,7 @@ input[type="checkbox"]:checked + label:before {
     box-sizing: border-box;
     padding-left: 0px;
     padding-right: 0px;
+    overflow: hidden;
 }
 
 .firstSectionBoxContent ul {
@@ -369,6 +521,13 @@ input[type="checkbox"]:checked + label:before {
     font-size: 12px;
     line-height: 20px;
     padding-top: 15px;
+    color: #999999;
+}
+
+.firstSectionBoxContent li h2 {
+    font-size: 12px;
+    line-height: 20px;
+    padding-bottom: 15px;
     color: #999999;
 }
 
@@ -538,6 +697,13 @@ input[type="checkbox"]:checked + label:before {
         padding-top: 15px;
     }
 
+    .firstSectionBoxHead a{
+        font-size: 15px;
+        font-weight: 300;
+        color: #9AC40B;
+        padding-top: 15px;
+    }
+
     .firstSectionBoxHead p {
         font-size: 14px;
         line-height: 22px;
@@ -551,6 +717,7 @@ input[type="checkbox"]:checked + label:before {
         box-sizing: border-box;
         padding-left: 30px;
         padding-right: 30px;
+        overflow: hidden;
     }
 
     .checkBoxContent {
@@ -577,7 +744,8 @@ input[type="checkbox"]:checked + label:before {
     }
 
     .footerBoxRight {
-        width: 100% px;
+        width: 100%;
+        max-width: 300px;
         float: none;
         margin: 0 auto;
         padding-top: 60px;
